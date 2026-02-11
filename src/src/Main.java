@@ -13,7 +13,13 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        Cinema cinema = new Cinema(10,10);
 
+        int op;
+
+        do {
+
+        } while (op != 0);
 
 
         sc.close();

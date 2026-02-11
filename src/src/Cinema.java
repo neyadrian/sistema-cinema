@@ -30,7 +30,7 @@ public class Cinema {
     public void mostrarMapa() {
         System.out.println("\nMapa de Assentos");
         for (int i = 0; i < assentos.length; i++) {
-            for (int j =0; i < assentos.length; j++) {
+            for (int j =0; j < assentos.length; j++) {
                 System.out.println(assentos[i][j] + " ");
             }
             System.out.println();
